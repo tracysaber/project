@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '第一个小程序',
+    motto: '常乐镇十九大知识答题',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')

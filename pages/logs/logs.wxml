@@ -1,9 +1,18 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
+<view class="container log-list" style="background-image: url('../images/1.jpg');">
+  <!-- <block wx:for="{{logs}}" wx:for-item="log"> -->
+  <block>
+    <text class="userinfo-nickname">考生：{{userInfo.nickName}}</text>
+  </block>
+
+  <block>
+    <text class="log-item">{{index}}. {{subject}}</text>
   </block>
   <block>
-    <button>按钮</button>
+    <!-- <a href="buttonClick" class="weui-btn weui-btn_primary">页面主操作 Normal</a>   -->
+    <button id="1" bindtap="buttonClick">{{choice1}}</button>
+  </block>
+  <block>
+    <button id="2" bindtap="buttonClick">{{choice2}}</button>
   </block>
 </view>

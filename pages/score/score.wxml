@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container log-list" style="background-image: url('../images/1.jpg');">
+  <!-- <block wx:for="{{logs}}" wx:for-item="log"> -->
+  <block>
+    <text class="userinfo-nickname">考生：{{userInfo.nickName}}</text>
+  </block>
+  <block>
+    <image src="{{imgsrc}}" style="width:10em;"></image>
+  </block>
+  <block>
+    <button bindtap="back">不服重做</button>
+  </block>
+</view>

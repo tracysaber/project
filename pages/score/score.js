@@ -26,6 +26,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    if (app.globalData.userInfo) {
+      this.setData({
+        userInfo: app.globalData.userInfo,
+        hasUserInfo: true
+      })
+    } else {
+      this.setData({
+        userInfo: { nickName: "同志", avatarUrl: "" }
+      })
+    }
     this.data.imgsrc = this.data.fzpic[options.scores];
     this.setData({
       imgsrc:this.data.imgsrc

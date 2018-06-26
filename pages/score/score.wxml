@@ -1,5 +1,5 @@
 <!--logs.wxml-->
-<view class="container log-list" style="background-image: url('../images/1.jpg');">
+<view class="container log-list" style="background-image: url('https://iieluqu.oss-cn-beijing.aliyuncs.com/images/1.jpg');">
   <!-- <block wx:for="{{logs}}" wx:for-item="log"> -->
   <block>
     <text class="userinfo-nickname">考生：{{userInfo.nickName}}</text>

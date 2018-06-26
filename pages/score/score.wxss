@@ -1,1 +1,9 @@
 /* pages/score/score.wxss */
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 400rpx 40rpx 40rpx 40rpx;
+}
+.userinfo-nickname {
+  color: #FF0000;
+}

@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container" style="background-image: url('../images/3.jpg');">
+<view class="container" style="background-image: url('https://iieluqu.oss-cn-beijing.aliyuncs.com/images/3.jpg');">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -8,10 +8,16 @@
     </block>
   </view>
    <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">常乐镇</text>
+    
   </view> 
+
+    <text class="user-motto">十九大</text>
+    <text class="user-motto">知识问答</text>
+    <text class="user-motto">\n</text>
  <view>
-  <button bindtap="bindViewTap">点击开始答题</button>
+  <button class="weui-btn" type="warn" bindtap="bindViewTap">点击开始答题</button>
+  <!-- <button class="weui-btn weui-btn_primary" bindtap="bindViewTap">点击开始答题</button> -->
  </view>
  
 </view>

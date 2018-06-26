@@ -10,10 +10,13 @@
   </block>
   <block>
     <!-- <a href="buttonClick" class="weui-btn weui-btn_primary">页面主操作 Normal</a>   -->
-    <button id="1" bindtap="buttonClick">{{choice1}}</button>
+    <button id="1" class="weui-btn" type="primary" bindtap="buttonClick">{{choice1}}</button>
   </block>
   <block>
-    <button id="2" bindtap="buttonClick">{{choice2}}</button>
+    <button id="2" class="weui-btn" type="primary" bindtap="buttonClick">{{choice2}}</button>
   </block>
-  <text>已经答对{{scores}}</text>
+  <view class="weui-cell__bd">
+    <view style="display: inline-block; vertical-align: middle">已经答对</view>
+    <view class="weui-badge" style="margin-left: 5px;">{{scores}}</view>
+  </view>
 </view>

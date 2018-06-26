@@ -19,4 +19,10 @@
 
 .usermotto {
   margin-top: 200px;
+  color: #aaa;
+}
+.user-motto {
+  color: #bd2520;
+  font-family: "Times New Roman";
+  font-weight:bold;
 }

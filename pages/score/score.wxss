@@ -5,5 +5,7 @@
   padding: 400rpx 40rpx 40rpx 40rpx;
 }
 .userinfo-nickname {
-  color: #FF0000;
+  color: #bd2220;
+  font-family: Georgia, serif;
+  font-weight:bold;
 }

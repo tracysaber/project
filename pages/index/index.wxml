@@ -7,17 +7,15 @@
       <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
     </block>
   </view>
-   <view class="usermotto">
-    <text class="user-motto">常乐镇</text>
+  <view class="usermotto">
+    <text class="user-motto">\n常乐镇</text>
     
   </view> 
-
-    <text class="user-motto">十九大</text>
-    <text class="user-motto">知识问答</text>
-    <text class="user-motto">\n</text>
- <view>
+  <text class="user-motto">十九大</text>
+  <text class="user-motto">知识问答</text>
+  <text class="user-motto">\n</text>
+  <view>
   <button class="weui-btn" type="warn" bindtap="bindViewTap">点击开始答题</button>
-  <!-- <button class="weui-btn weui-btn_primary" bindtap="bindViewTap">点击开始答题</button> -->
- </view>
+  </view>
  
 </view>

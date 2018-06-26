@@ -5,7 +5,11 @@
 }
 .log-item {
   margin: 10rpx;
+  font-family: Georgia;
+  font-weight:bold;
 }
 .userinfo-nickname {
-  color: #FF0000;
+  color: #bd2220;
+  font-family: Georgia, serif;
+  font-weight:bold;
 }

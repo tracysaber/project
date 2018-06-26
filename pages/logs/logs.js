@@ -56,8 +56,9 @@ Page({
     if(this.data.index<=10){
       //console.log(this.data.subjects[this.data.index-1]);
       // console.log(event.currentTarget.id);
-      // console.log(this.data.answers[this.data.index - 1]);
-      if (event.currentTarget.id == this.data.answers[this.data.ten[this.data.index-1]]){
+      console.log(this.data.ten[this.data.index-1]);
+      console.log(this.data.answers[this.data.index - 1]);
+      if (event.currentTarget.id == this.data.answers[this.data.ten[this.data.index-2]]){
         this.data.scores++;
         console.log(this.data.scores);
       }
